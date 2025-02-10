@@ -13,7 +13,7 @@ There are two Scaling in EKS:
 
 2. POD AutoScaling:
    - For Pod AutoScaling Hpa(Horizontal Pod AutoScaling) is used.
-   - Kubernetes give metrics server for pod autoscaling, we need to download that metrics server which helps us for AutoScaling.
+   - Kubernetes give metrics-server for pod autoscaling, we need to download that metrics server which helps us for AutoScaling. (In new Version v1.30 metrics-server is pre-configured)
    
 ## AutoScaler of Node:
 Steps: 
